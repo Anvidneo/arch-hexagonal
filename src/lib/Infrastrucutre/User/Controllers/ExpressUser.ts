@@ -1,6 +1,6 @@
 import e, { Request, Response } from "express";
 import { UserNotFoundError } from "../../../Domain/User/Errors/UserNotFoundError";
-import { ServiceContainer } from "../../../Infrastrucutre/Shared/ServiceContainer";
+import { ServiceContainer } from "../../Shared/ServiceContainer";
 
 export class ExpressUser {
     async getAll(req: Request, res: Response){
