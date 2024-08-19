@@ -1,9 +1,9 @@
-import { UserRepository } from "../../../User/Domain/User/Interface/UserRepository";
-import { User } from "../../../User/Domain/User/User.entity";
-import { UserCreatedAt } from "../../../User/Domain/User/ValueObjects/UserCreatedAt";
-import { UserEmail } from "../../../User/Domain/User/ValueObjects/UserEmail";
-import { UserId } from "../../../User/Domain/User/ValueObjects/UserId";
-import { UserName } from "../../../User/Domain/User/ValueObjects/UserName";
+import { UserRepository } from "../../../Domain/User/Interface/UserRepository";
+import { User } from "../../../Domain/User/User.entity";
+import { UserCreatedAt } from "../../../Domain/User/ValueObjects/UserCreatedAt";
+import { UserEmail } from "../../../Domain/User/ValueObjects/UserEmail";
+import { UserId } from "../../../Domain/User/ValueObjects/UserId";
+import { UserName } from "../../../Domain/User/ValueObjects/UserName";
 
 export class UserUpdate{
     constructor(private repository: UserRepository){}
